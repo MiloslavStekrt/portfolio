@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    justify-content: space-around;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+    font-weight: bold;
+    padding: 0.5em;
+}
+nav a:hover{
+    background-color: gray;
+}
+.home{
+    padding: 20%;
+    text-align: center;
+    background: url("bg_of_web.jpeg") no-repeat center center;
+}
+.home p{
+    color: gray;
+    font-weight: bold;
+    background-color: white;
+    opacity: .75;
+}
+.home h1{
+    color: blue;
+    background-color: whitesmoke;
+    opacity: .85;
+}
+
+.aboutme{
+    text-align: center;
+    padding: 2em;
+}
+.aboutme h1{}
